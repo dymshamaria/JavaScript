@@ -44,7 +44,7 @@ checkAge("aaa")
 checkAge("20")
 checkAge("0")
 
-//Task3
+//Task 3
 let age_2 = 18
 let age_3 = 60
 checkAge = function(age){
@@ -68,7 +68,7 @@ checkAge("aaa")
 checkAge("20")
 checkAge("0")
 
-//Task4
+//Task 4
 let age_2 = 18
 let age_3 = 60
 checkAge = function(age){
