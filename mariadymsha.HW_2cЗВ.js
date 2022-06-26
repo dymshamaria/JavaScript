@@ -56,8 +56,6 @@ function getWordStructure2(word){
 }
 getWordStructure2("Check-list")
 
-
-
 //4**Написать функцию, которая проверяет, является ли слово палиндромом
 function isPalindrom(word) {
     word = word.toLowerCase()
