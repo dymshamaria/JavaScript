@@ -1,4 +1,4 @@
-
+//1 Написать функцию, которая найдет и выведет в консоль юзеров, зарегистрированных 09.10.2021 и 10.10.2021. 
 const users = [
     {
         firstName: 'John',
@@ -80,9 +80,6 @@ const users = [
     },
 ];
 
-
-const result = users.filter(element => element.registrationDate == "09.10.2021")
-const result1 = users.filter(element => element.registrationDate == "10.10.2021")
-console.log(result);
-console.log(result1);
+const userUnique = users.filter(el => (el.registrationDate == "09.10.2021" || el.registrationDate == "10.10.2021"))
+console.log(userUnique)
 
